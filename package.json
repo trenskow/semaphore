@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/semaphore",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A small library for waiting in JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/trenskow/semaphore#readme",
   "devDependencies": {
-    "eslint": "^8.2.0"
+    "eslint": "^8.13.0"
   }
 }
