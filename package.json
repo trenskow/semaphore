@@ -1,27 +1,31 @@
 {
-  "name": "@trenskow/semaphore",
-  "version": "0.1.18",
-  "description": "A small library for waiting in JavaScript.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trenskow/semaphore.git"
-  },
-  "keywords": [
-    "semaphore",
-    "wait",
-    "promises"
-  ],
-  "author": "Kristian Trenskow <trenskow@me.com>",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/trenskow/semaphore/issues"
-  },
-  "homepage": "https://github.com/trenskow/semaphore#readme",
-  "devDependencies": {
-    "eslint": "^9.12.0"
-  }
+	"name": "@trenskow/semaphore",
+	"version": "0.1.18",
+	"description": "A small library for waiting in JavaScript.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/trenskow/semaphore.git"
+	},
+	"keywords": [
+		"semaphore",
+		"wait",
+		"promises"
+	],
+	"author": "Kristian Trenskow <trenskow@me.com>",
+	"license": "BSD-2-Clause",
+	"bugs": {
+		"url": "https://github.com/trenskow/semaphore/issues"
+	},
+	"homepage": "https://github.com/trenskow/semaphore#readme",
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.1.0",
+		"@eslint/js": "^9.13.0",
+		"eslint": "^9.13.0",
+		"globals": "^15.11.0"
+	}
 }

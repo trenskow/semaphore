@@ -1,3 +1,3 @@
-'use strict';
+import Semaphore from './lib/index.js';
 
-exports = module.exports = require('./lib');
+export default Semaphore;
